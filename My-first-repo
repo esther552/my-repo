@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   width: 100vw;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Times New Roman;
+   font-size: 15px;
+   padding: 50px 0;
+   background-color: #E9967A;
+}
+.container {
+  /* width: 375px; */
+   display: flex;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.card {
+   width: 280px;
+   padding: 50px;
+   color: hsla(0, 0%, 100%, 0.75);
+   /* display: flex;
+       justify-content: center;
+      align-items: center;
+      flex-direction: column; */
+}
+.card:first-child {
+   background-color: #FF7F50;
+}
+.card:nth-child(2) {
+   background-color: #D2691E;
+}
+.card:last-child {
+   background-color: #A52A2A;
+}
+.card h1 {
+   text-transform: uppercase;
+   margin: 20px 0;
+   color: hsl(0, 0%, 95%);
+}
+.card p {
+   margin-bottom: 90px;
+}
+.card a {
+   text-decoration: none;
+   background-color: #000000;
+   padding: 12px 30px;
+   border-radius: 50px;
+}
+.card:first-child a {
+   color: #D8BFD6;
+}
+.card:nth-child(2) a {
+   color: #D8BFD6;
+}
+.card:last-child a {
+   color: #D8BFD6;
+}
+.card a:hover {
+   color: hsl(0, 0%, 95%);
+   border: 2px solid hsl(0, 0%, 95%);
+   background: transparent;
+}
+@media (max-width: 375px) {
+   body {
+      /* width: 100vw; */
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     font-family: Poppins;
+      font-size: 15px;
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+   overflow: hidden;
+   }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="card">
+   <img src="imagePreview/icon-sedans.svg" alt="" />
+<h1>Iphone 13 pro max</h1>
+<p>Apple iphone 13 pro max 6.7 super retina XDR display, smooth and ultra retinal, promotion. Amazing new camers opportunities Battery life and bronic Ultrafast A15 chip.</p>
+<a href="#">Learn More</a>
+</div>
+<div class="card">
+   <img src="imagesPreview/icon-suvs.svg" alt="" />
+<h1>Iphone 11</h1>
+<p>Iphone 11 comes with a new dual-camera system. It captures more of the sights and sounds you love. You can accomplish more and charge fewer thanks to the fastest chip ever put in a smartphone and all-day battery life.</p>
+<a href="#">Learn More</a>
+</div>
+<div class="card">
+   <img src="imagePreview/icon-luxury.svg" alt="" />
+<h1>Iphone 12 pro max</h1>
+<p>With the iPhone 12 por max, endlessly amazing possibilities are at your disposal. A dazzling 6.7"Super Retina XDR display, 5G for downloading and streaming high-quality video, the potent A14 Bionic chip and lots more.</p>
+<a href="#">Learn More</a>
+</div>
+
+</body>
+</html>
